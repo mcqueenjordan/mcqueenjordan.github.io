@@ -15,3 +15,4 @@ I like to think about systems. Systems are everywhere. Fundamentally, software e
 - reading textbooks
 - dancing (swing, fusion, blues, waltz, contra, lindy)
 
+(Listed in a very particular order: ascending string length.)
