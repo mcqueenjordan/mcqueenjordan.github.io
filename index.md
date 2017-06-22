@@ -6,9 +6,10 @@ layout: default
 
 I like to think about systems. I have a childlike fascination and curiosity
 for all phenomena. It is an impossible task to unbalance my equanimity. I
-believe that there is something to be learned from every experience. I am
-an empiricist, but I let my intuition tell me where to look for the evidence.
-If I'm not smiling or laughing, I'm deeply in thought. ;)
+believe that there is something to be learned from every experience. I find
+few tasks as rewarding as helping those around me. I am an empiricist, but I
+let my intuition tell me where to look for the evidence. If I'm not smiling or
+laughing, I'm deeply in thought. ;)
 
 
 ## Outside of work
