@@ -1,5 +1,6 @@
 title: Jordan McQueen | developer + learner
 heading: Jordan McQueen
 description: Thoughts, learnings, shameless self-promotion.
+exclude: [deploy.sh]
 google_analytics:
 theme: 
