@@ -6,8 +6,7 @@ layout: default
 
 I like to think about systems. I have a childlike fascination and curiosity
 for all phenomena. It is an impossible task to unbalance my equanimity. I find
-few tasks as rewarding as helping those around me. I am an empiricist, but I
-let my intuition tell me where to seek for the evidence. If I'm not smiling or
+few tasks as rewarding as helping those around me. If I'm not smiling or
 laughing, I'm deeply in thought. ;)
 
 
