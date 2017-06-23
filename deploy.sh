@@ -4,7 +4,7 @@ echo "Building jekyll _site/ contents..."
 jekyll build &&
 
 # I don't like .html endings in URLs. Remove them.
-python3.6 strip_html_extensions.py &&
+python3.6 pre_deploy_hooks.py &&
 
 echo "Pushing to S3..."
 # Because we removed the extensions, we push the content-type text/html.
