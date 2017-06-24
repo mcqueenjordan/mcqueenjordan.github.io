@@ -9,10 +9,16 @@ GENERATED_SITE_DIR = '_site'
 THOUGHT_DIR = '{}/thought'
 HTML = '.html'
 
+CONTENT_TYPE_MAPPING = {
+        'css': 'text/css'
+        'txt': 'text/plain'
+        }
+
 def main() -> None:
     reorganize_thought_file_structure()
     strip_extensions_recursively(GENERATED_SITE_DIR, HTML)
     upload_website_to_s3(GENERATED_SITE_DIR, WEBSITE_BUCKET_NAME)
+
 
 def reorganize_thought_file_structure() -> None:
     pattern = '{}/**/*.html'.format(THOUGHT_DIR)
@@ -22,22 +28,20 @@ def reorganize_thought_file_structure() -> None:
         os.rename(f, new_name)
         os.rmdir(new_name[:-5])
 
+
 def strip_extensions_recursively(root: str, extension: str) -> None:
     pattern = '{}/**/*{}'.format(root, extension)
     for f in glob(pattern, recursive = True):
         os.rename(f, f.replace(extension, ''))
+
 
 def upload_website_to_s3(directory: str, s3_bucket_name: str) -> None:
     pattern = '{}/**/*'.format(directory)
     for filename in glob(pattern, recursive = True):
         if os.path.isdir(filename): continue
 
-        if filename.endswith('.css'):
-            content_type = 'text/css'
-        else:
-            content_type = 'text/html'
-
         s3_object_key = '/'.join(filename.split('/')[1:])
+        content_type = decide_content_type(filename)
 
         with open(filename, 'rb') as f:
                 s3.put_object(
@@ -48,6 +52,12 @@ def upload_website_to_s3(directory: str, s3_bucket_name: str) -> None:
                         )
 
         print('Uploaded: {} to {}/{}'.format(filename, s3_bucket_name, s3_object_key))
+
+
+def decide_content_type(filename: str) -> str:
+    extension = filename.split('.')[-1]
+    return CONTENT_TYPE_MAPPING.get(extention, 'text/html')
+
 
 if __name__ == '__main__':
     main()
