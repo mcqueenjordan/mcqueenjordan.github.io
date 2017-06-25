@@ -11,6 +11,6 @@ name: avoid-hard-problems
 >
 > &mdash;<cite>Albert Einstein</cite>
 
-Some problems, especially distributed problems and concurrency problems,
-are fundamentally hard. It is wise to avoid these problems.
+Some problems, _e.g._ distributed and concurrency problems,
+are __fundamentally hard__. It is wise to avoid these problems.
 
