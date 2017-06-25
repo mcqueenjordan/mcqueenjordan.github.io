@@ -13,6 +13,9 @@ CLOUDFRONT_DISTRIBUTION_ID = os.environ['CLOUDFRONT_DISTRIBUTION_ID']
 GENERATED_SITE_DIR = '_site'
 THOUGHT_DIR = '{}/thought'.format(GENERATED_SITE_DIR)
 HTML = '.html'
+FILES_TO_KEEP_HTML_EXTENSIONS = {
+        '_site/googleadb73ac2a3c3efa7.html'
+        }
 
 CONTENT_TYPE_MAPPING = {
         'css': 'text/css',
@@ -38,7 +41,8 @@ def reorganize_thought_file_structure() -> None:
 def strip_extensions_recursively(root: str, extension: str) -> None:
     pattern = '{}/**/*{}'.format(root, extension)
     for f in glob(pattern, recursive = True):
-        os.rename(f, f.replace(extension, ''))
+        if f not in FILES_TO_KEEP_HTML_EXTENSIONS:
+            os.rename(f, f.replace(extension, ''))
 
 
 def upload_website_to_s3(directory: str, s3_bucket_name: str) -> None:
