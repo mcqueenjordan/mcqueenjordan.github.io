@@ -3,6 +3,7 @@ layout: thought
 title: New Website Design
 subtitle: Optimizing for Ease of Publishing
 name: new-website
+category: post
 ---
 
 The optimal process is the one that works. My previous website was dynamic,
