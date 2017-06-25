@@ -11,7 +11,7 @@ WEBSITE_BUCKET_NAME = os.environ['WEBSITE_BUCKET_NAME']
 CLOUDFRONT_DISTRIBUTION_ID = os.environ['CLOUDFRONT_DISTRIBUTION_ID']
 
 GENERATED_SITE_DIR = '_site'
-THOUGHT_DIR = '{}/thought'
+THOUGHT_DIR = '{}/thought'.format(GENERATED_SITE_DIR)
 HTML = '.html'
 
 CONTENT_TYPE_MAPPING = {
@@ -65,7 +65,7 @@ def decide_content_type(filename: str) -> str:
     return CONTENT_TYPE_MAPPING.get(extension, 'text/html')
 
 
-def invalidate_caches():
+def invalidate_caches() -> None:
     cloudfront.create_invalidation(
             DistributionId = CLOUDFRONT_DISTRIBUTION_ID,
             InvalidationBatch = {
