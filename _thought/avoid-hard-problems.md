@@ -6,7 +6,7 @@ category: quote
 attributed-to: Albert Einstein
 name: avoid-hard-problems
 ---
-> A clever person solves a problem.
+> A clever person solves a problem.<br>
 > A wise person avoids it.
 >
 > &mdash;<cite>Albert Einstein</cite>
