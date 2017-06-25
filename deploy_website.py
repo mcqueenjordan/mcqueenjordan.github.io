@@ -1,16 +1,21 @@
 import os
 import boto3
+import datetime
 from glob import glob
 
 PDX = 'us-west-2'
 s3 = boto3.client('s3', region_name = PDX)
+cloudfront = boto3.client('cloudfront')
+
 WEBSITE_BUCKET_NAME = os.environ['WEBSITE_BUCKET_NAME']
+CLOUDFRONT_DISTRIBUTION_ID = os.environ['CLOUDFRONT_DISTRIBUTION_ID']
+
 GENERATED_SITE_DIR = '_site'
 THOUGHT_DIR = '{}/thought'
 HTML = '.html'
 
 CONTENT_TYPE_MAPPING = {
-        'css': 'text/css'
+        'css': 'text/css',
         'txt': 'text/plain'
         }
 
@@ -18,6 +23,7 @@ def main() -> None:
     reorganize_thought_file_structure()
     strip_extensions_recursively(GENERATED_SITE_DIR, HTML)
     upload_website_to_s3(GENERATED_SITE_DIR, WEBSITE_BUCKET_NAME)
+    invalidate_caches()
 
 
 def reorganize_thought_file_structure() -> None:
@@ -56,8 +62,21 @@ def upload_website_to_s3(directory: str, s3_bucket_name: str) -> None:
 
 def decide_content_type(filename: str) -> str:
     extension = filename.split('.')[-1]
-    return CONTENT_TYPE_MAPPING.get(extention, 'text/html')
+    return CONTENT_TYPE_MAPPING.get(extension, 'text/html')
 
+
+def invalidate_caches():
+    cloudfront.create_invalidation(
+            DistributionId = CLOUDFRONT_DISTRIBUTION_ID,
+            InvalidationBatch = {
+                'Paths': {
+                    'Items': ['/*'],
+                    'Quantity': 1
+                    },
+                'CallerReference': str(datetime.datetime.now())
+                }
+            )
 
 if __name__ == '__main__':
     main()
+
