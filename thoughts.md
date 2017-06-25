@@ -6,8 +6,8 @@ layout: default
 
 {% for thought in site.thought %}
 
-<h2><a href="/thought/{{ thought.name }}">{{ thought.title }}</a></h2>
-<h3>{{ thought.subtitle }}</h3>
+<h2><a href="/thought/{{ thought.name }}">{{ thought.title }}</a><br>
+{{ thought.subtitle }}</h2>
 
 {{ thought.content }}
 
