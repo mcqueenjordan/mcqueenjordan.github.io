@@ -23,9 +23,16 @@ CONTENT_TYPE_MAPPING = {
         }
 
 def main() -> None:
+    print("Re-organizing /thought/ structure...")
     reorganize_thought_file_structure()
+
+    print("Stipping all .html extensions (except blacklisted files).")
     strip_extensions_recursively(GENERATED_SITE_DIR, HTML)
+
+    print("Uploading all files to S3...")
     upload_website_to_s3(GENERATED_SITE_DIR, WEBSITE_BUCKET_NAME)
+
+    print("Invalidating all CloudFront caches. (TODO: only invalidate changes.)")
     invalidate_caches()
 
 
