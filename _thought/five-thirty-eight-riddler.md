@@ -3,7 +3,7 @@ layout: thought
 title: The FiveThirtyEight Riddler
 subtitle: A good resource for problems
 category: post
-name: fiver-thirty-eight-riddler
+name: five-thirty-eight-riddler
 ---
 
 If you like imaginative/challenging math/logic/CS problems, take a gander at
