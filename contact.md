@@ -6,9 +6,16 @@ layout: default
 
 | key           | value                      |
 | ------------- |:--------------------------:|
-| cell          | [1-206-714-5314][my-phone] |
-| email         | [dojo3@uw.edu][my-email]   |
+| cell          | [1-206-714-5314][phone]    |
+| email         | [dojo3@uw.edu][email]      |
+| linkedin      | [mcqueenjordan][linkedin]  |
+| facebook      | [JordanLoganMcQueen][fb]   |
+| twitter       | [__mcqueen][twitter]       |
 
-[my-phone]: tel:12067145314
-[my-email]: mailto:dojo3@uw.edu
+
+[phone]: tel:12067145314
+[email]: mailto:dojo3@uw.edu
+[linkedin]: https://www.linkedin.com/in/mcqueenjordan/
+[fb]: https://www.facebook.com/JordanLoganMcQueen
+[twitter]: https://twitter.com/__mcqueen
 
