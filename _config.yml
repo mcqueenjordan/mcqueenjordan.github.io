@@ -10,4 +10,4 @@ collections:
         output: true
         permalink: /:collection/:path/
         title: Thoughts
-css_version: 1.03
+css_version: 1.04
