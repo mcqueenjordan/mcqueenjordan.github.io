@@ -1,7 +1,7 @@
 ---
 layout: thought
 title: The FiveThirtyEight Riddler
-subtitle: A Fun Resource for Problems
+subtitle: A good resource for problems
 category: post
 name: fiver-thirty-eight-riddler
 ---
