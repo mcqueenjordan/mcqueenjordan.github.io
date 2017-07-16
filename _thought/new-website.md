@@ -3,6 +3,7 @@ layout: thought
 title: New Website Design
 subtitle: Optimizing for Ease of Publishing
 name: new-website
+published_date: 2017-06-24
 category: post
 ---
 

@@ -3,6 +3,7 @@ layout: thought
 title: Dancing the Quicksort
 subtitle: Hungarian folk dancing meets quicksort
 category: post
+published_date: 2017-07-05
 name: dancing-the-quicksort
 ---
 

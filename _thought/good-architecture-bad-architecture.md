@@ -4,6 +4,7 @@ title: Good Architecture
 subtitle: If you don't invest in your future, don't expect good things
 category: quote
 attributed-to: Brian Foote & Joseph Yoder
+published_date: 2017-07-04
 name: good-architecture-bad-architecture
 ---
 > If you think good architecture is expensive, try bad architecture.
