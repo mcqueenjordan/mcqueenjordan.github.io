@@ -1,5 +1,5 @@
 ---
-layout: thought
+layout: quote
 title: Avoid Hard Problems
 subtitle: Some things are fundamentally hard
 category: quote
@@ -11,7 +11,4 @@ name: avoid-hard-problems
 > A wise person avoids it.
 >
 > &mdash;<cite>Albert Einstein</cite>
-
-Some problems, _e.g._ distributed and concurrency problems,
-are __fundamentally hard__. It is wise to avoid these problems.
 

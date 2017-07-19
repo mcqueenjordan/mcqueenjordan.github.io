@@ -1,5 +1,5 @@
 ---
-layout: thought
+layout: quote
 title: Comments are a Code Smell
 subtitle: If it needs a comment, it needs a rewrite
 category: quote

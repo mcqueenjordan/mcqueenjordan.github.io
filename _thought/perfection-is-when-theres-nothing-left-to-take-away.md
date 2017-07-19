@@ -1,5 +1,5 @@
 ---
-layout: thought
+layout: quote
 title: Less is More
 subtitle: Don't seek to add &mdash; seek to reduce
 category: quote
