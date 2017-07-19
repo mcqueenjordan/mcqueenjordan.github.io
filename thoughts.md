@@ -7,7 +7,10 @@ layout: default
 {% for thought in site.thought %}
 
 <h2><a href="/thought/{{ thought.name }}">{{ thought.title }}</a><br>
-{{ thought.subtitle }}</h2>
+{% if thought.category != "quote" %}
+{{ thought.subtitle }}
+{% endif %}
+</h2>
 
 {{ thought.content }}
 
