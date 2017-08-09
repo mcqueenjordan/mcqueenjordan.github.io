@@ -2,7 +2,7 @@
 layout: thought
 title: Context Switching an Engineer
 subtitle: The costs of interrupting a task
-name: conservative-googler-manifesto
+name: context-switching-an-engineer
 published_date: 2017-08-07
 category: post
 ---
