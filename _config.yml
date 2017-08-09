@@ -1,6 +1,6 @@
 title: Jordan McQueen | developer + learner
 heading: Jordan McQueen
-description: Thoughts, learnings, a place of persistence
+description: Thoughts, learnings, a place to share stuff
 exclude: [deploy.sh, deploy_website.py]
 google_analytics:
 theme: 
