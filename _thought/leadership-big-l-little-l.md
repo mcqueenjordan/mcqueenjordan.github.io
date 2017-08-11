@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: Leadership: Big L, Little l
+title: "Leadership: Big L, Little l"
 subtitle: Leadership needn't be official
 name: leadership-big-l-little-l
 published_date: 2017-08-11
