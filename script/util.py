@@ -2,14 +2,16 @@
 import click
 import time
 import sys
+import re
 
+URI_REGEX_PATTERN = re.compile('[^0-9a-zA-Z -]+')
 POST_TEMPLATE = '''\
 ---
 layout: thought
-title: {title}
-subtitle: {subtitle}
-name: {name}
-published_date: {published_date}
+title: "{title}"
+subtitle: "{subtitle}"
+name: "{name}"
+published_date: "{published_date}"
 category: post
 ---
 
@@ -50,8 +52,9 @@ def write_file(file_contents: str, file_location: str) -> None:
 
 
 def format_as_uri(string: str) -> str:
-    return '-'.join(string.split()).lower()
+    return '-'.join(re.sub(URI_REGEX_PATTERN, '', string).split()).lower()
 
 
 if __name__ == '__main__':
     main()
+
