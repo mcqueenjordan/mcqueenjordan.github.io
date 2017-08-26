@@ -1,7 +1,7 @@
 ---
 layout: thought
 title: Conservative Googler Manifesto
-subtitle: Tolerance is not Moral Precept
+subtitle: Tolerance is not a Moral Precept
 name: conservative-googler-manifesto
 published_date: 2017-08-06
 category: post
