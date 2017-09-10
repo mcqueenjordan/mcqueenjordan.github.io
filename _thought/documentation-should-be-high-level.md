@@ -1,7 +1,7 @@
 ---
 layout: thought
 title: "Documentation Should be High-Level"
-subtitle: ""
+subtitle: "Keep your documentation legible and sustainable"
 name: "documentation-should-be-high-level"
 published_date: "2017-09-09"
 category: post
@@ -21,8 +21,8 @@ software systems of any reasonable complexity, the code is the only source of
 truth for its behavior and its descriptive reality. Documentation ought to
 answer the following questions, in basic non-technical english prose:
 
-1. Why did we create this software? (prescriptive statement)
-2. At a high-level, how does it solve the problem? (This answer should
+1. Why did we create this component? (prescriptive statement)
+2. At a high-level, how does it solve its problem? (This answer should
 absolutely not map anywhere near 1:1 to its implementation. It should be at an
 extremely high-level.)
 3. Going no deeper than a file/class level view, describe in a paragraph the
