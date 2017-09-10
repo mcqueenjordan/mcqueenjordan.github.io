@@ -7,7 +7,8 @@ published_date: 2017-07-05
 name: dancing-the-quicksort
 ---
 
-This pretty well sums up what I spend my free time doing.
+This is pretty sweet. If you can geek out about this kind of stuff, ping me.
+We'd get along just fine.
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/ywWBy6J5gz8" frameborder="0" allowfullscreen>
