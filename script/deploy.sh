@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 source .env
 
 echo "Building jekyll _site/ contents..."
