@@ -17,7 +17,7 @@ laughing, I'm deeply in thought. ;)
 - guitar/piano
 - house-hunting
 - reading textbooks
-- dancing (swing, fusion, blues, waltz, contra, lindy)
+- dancing (fusion, blues, swing, waltz, contra, lindy, bachata, kizomba, zouk)
 
 (Listed in a very particular order: ascending string length.)
 
