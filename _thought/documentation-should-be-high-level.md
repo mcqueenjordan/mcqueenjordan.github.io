@@ -2,9 +2,10 @@
 layout: thought
 title: "Documentation Should be High-Level"
 subtitle: "Keep your documentation legible and sustainable"
+category: post
+topics: ["software engineering", "process"]
 name: "documentation-should-be-high-level"
 published_date: "2017-09-09"
-category: post
 ---
 
 A few days ago, our team launched a new component. A week after launch, while
@@ -12,7 +13,7 @@ dealing with some ops tickets, we discovered that the detailed, extensive wiki
 document for that component was already out-of-date.
 
 This is a familiar story to any dev. Documentation is hard to keep accurate.
-The knee-jerk reaction is to asses that the miss here was that we allowed the
+The knee-jerk reaction is to assess that the miss here was that we allowed the
 documentation to become inaccurate. The knee-jerk reaction is wrong. It is not
 feasible to maintain documentation if that documentation is too specific.
 
@@ -33,11 +34,11 @@ into the code.
 Again, documentation should never map 1:1 to anything more specific than a
 class. Anything more specific than that, and it effectively has to change
 whenever the code changes. If you're changing the function of tons of classes
-and files, it is reasonable the expect that the documentation would necessarily
-have to change anyway.
+and files, it is reasonable to expect that the documentation would necessarily
+have to change in kind.
 
 Writing documentation at a high-level helps to minimize the potential that your
-documentation will become out-of-date and inaccurate. And it is easier to
+documentation will become out-of-date and inaccurate. It is easier to
 understand, too. Which is kind of the point. If someone wants to know the
 objective truth exactly as it exists, the documentation is absolutely the wrong
 place for that. That's what the code is for.
