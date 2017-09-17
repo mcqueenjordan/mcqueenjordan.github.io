@@ -2,9 +2,10 @@
 layout: thought
 title: Context Switching an Engineer
 subtitle: The costs of interrupting a task
+category: post
+topics: ["soft skills", "software engineering", "process"]
 name: context-switching-an-engineer
 published_date: 2017-08-07
-category: post
 ---
 
 Every time you ask an engineer to postpone what he/she was working on and

@@ -2,6 +2,7 @@
 layout: thought
 title: "Tiling Window Managers"
 subtitle: "A better way to interface with your computer"
+topics: ["tools"]
 name: "tiling-window-managers"
 published_date: "2017-09-10"
 category: post

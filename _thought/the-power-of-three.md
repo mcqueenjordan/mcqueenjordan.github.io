@@ -3,6 +3,7 @@ layout: thought
 title: The Power of Three
 subtitle: Every set of three is complete
 category: post
+topics: ["soft skills"]
 published_date: 2016-09-21
 name: the-power-of-three
 ---

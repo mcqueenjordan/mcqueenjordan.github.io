@@ -3,6 +3,7 @@ layout: quote
 title: Comments are a Code Smell
 subtitle: If it needs a comment, it needs a rewrite
 category: quote
+topics: ["software engineering"]
 attributed-to: Steve McConnell
 published_date: 2017-07-05
 name: comments-are-a-code-smell

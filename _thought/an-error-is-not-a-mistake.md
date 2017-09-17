@@ -3,6 +3,7 @@ layout: quote
 title: An Error is not a Mistake
 subtitle: Learning cannot be a mistake
 category: quote
+topics: ["wisdom"]
 attributed-to: Orlando Aloysius Battista
 published_date: 2016-07-16
 name: an-error-is-not-a-mistake

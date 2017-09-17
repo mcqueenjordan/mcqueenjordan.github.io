@@ -2,6 +2,7 @@
 layout: thought
 title: "Leadership: Big L, Little l"
 subtitle: Leadership needn't be official
+topics: ["soft skills"]
 name: leadership-big-l-little-l
 published_date: 2017-08-11
 category: post

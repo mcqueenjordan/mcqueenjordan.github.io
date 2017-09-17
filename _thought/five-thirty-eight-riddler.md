@@ -3,6 +3,7 @@ layout: thought
 title: The FiveThirtyEight Riddler
 subtitle: A good resource for problems
 category: post
+topics: ["code", "problems"]
 name: five-thirty-eight-riddler
 published_date: 2017-07-05
 ---

@@ -2,6 +2,7 @@
 layout: thought
 title: "My Dream House"
 subtitle: "Houselusions of grandeur"
+topics: ["personal"]
 name: "my-dream-house"
 published_date: "2017-08-29"
 category: post

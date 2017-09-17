@@ -3,6 +3,7 @@ layout: thought
 title: A Computer Scientists View of Life, the Universe, and Everything
 subtitle:  Randomness, life, generalization, and learning in a given universe
 category: post
+topics: ["computer science", "academia"]
 published_date: 2017-07-18
 name: a-computer-scientists-view-of-life-the-universe-and-everything
 ---

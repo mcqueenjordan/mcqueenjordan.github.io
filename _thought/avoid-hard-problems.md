@@ -3,6 +3,7 @@ layout: quote
 title: Avoid Hard Problems
 subtitle: Some things are fundamentally hard
 category: quote
+topics: ["wisdom"]
 attributed-to: Albert Einstein
 published_date: 2017-06-25
 name: avoid-hard-problems
