@@ -9,8 +9,9 @@ layout: default
 
 <h2><a href="/thought/{{ thought.name }}">{{ thought.title }}</a><br>
 {% if thought.category != "quote" %}
-{{ thought.subtitle }}
+{{ thought.subtitle }}<br>
 {% endif %}
+<em>{{ thought.published_date }}</em>
 </h2>
 
 {{ thought.content }}
