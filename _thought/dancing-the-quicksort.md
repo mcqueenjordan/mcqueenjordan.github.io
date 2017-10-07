@@ -4,7 +4,7 @@ title: Dancing the Quicksort
 subtitle: Hungarian folk dancing meets quicksort
 category: post
 topics: ["computer science", "dance", "fun"]
-published_date: 2017-07-05
+published_date: "2017-07-05"
 name: dancing-the-quicksort
 ---
 

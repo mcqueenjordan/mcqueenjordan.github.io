@@ -4,7 +4,8 @@ layout: default
 
 # Thoughts
 
-{% for thought in site.thought %}
+{% assign thoughts = site.thought | sort: 'published_date' | reverse %}
+{% for thought in thoughts %}
 
 <h2><a href="/thought/{{ thought.name }}">{{ thought.title }}</a><br>
 {% if thought.category != "quote" %}

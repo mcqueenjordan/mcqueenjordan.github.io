@@ -3,7 +3,7 @@ layout: thought
 title: Almost is a Word That Means `Not`
 subtitle: Listen carefully to what you are told
 name: almost-means-not
-published_date: 2016-05-12
+published_date: "2016-05-12"
 topics: ["soft skills"]
 category: post
 ---

@@ -5,7 +5,7 @@ subtitle: Tolerance is not a Moral Precept
 category: post
 topics: ["soft skills", "politics"]
 name: conservative-googler-manifesto
-published_date: 2017-08-06
+published_date: "2017-08-06"
 ---
 
 [Yonatan's response][yonatan-essay] to the recently leaked conservative

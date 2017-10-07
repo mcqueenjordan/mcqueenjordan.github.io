@@ -4,7 +4,7 @@ title: Worry About Scaling Later
 subtitle: Starting up is antithetical to scaling efforts
 topics: ["business"]
 name: worry-about-scaling-later
-published_date: 2017-08-08
+published_date: "2017-08-08"
 category: post
 ---
 

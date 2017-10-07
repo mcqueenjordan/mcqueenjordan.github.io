@@ -5,7 +5,7 @@ subtitle: A good resource for problems
 category: post
 topics: ["code", "problems"]
 name: five-thirty-eight-riddler
-published_date: 2017-07-05
+published_date: "2017-07-05"
 ---
 
 If you like imaginative/challenging math/logic/CS problems, take a gander at
