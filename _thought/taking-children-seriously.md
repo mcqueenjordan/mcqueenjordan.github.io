@@ -17,3 +17,5 @@ would dumb down a concept or hand wave something away because it was assumed
 I wouldn't be able to understand. I think if we treated kids more like adults,
 the adults of tomorrow would be smarter and stronger.
 
+[taking-children-seriously]: http://fallibleideas.com/taking-children-seriously
+
