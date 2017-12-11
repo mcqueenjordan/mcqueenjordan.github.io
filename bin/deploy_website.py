@@ -13,7 +13,7 @@ CLOUDFRONT_DISTRIBUTION_ID = os.environ['CLOUDFRONT_DISTRIBUTION_ID']
 
 GENERATED_SITE_DIR = '_site'
 THOUGHT_DIR = '{}/thought'.format(GENERATED_SITE_DIR)
-IGNORED_DIRS = {'script'}
+IGNORED_DIRS = {'bin'}
 FILES_TO_KEEP_HTML_EXTENSIONS = {
         '_site/googleadb73ac2a3c3efa7.html'
         }
