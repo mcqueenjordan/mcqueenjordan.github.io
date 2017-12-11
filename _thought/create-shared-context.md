@@ -15,5 +15,5 @@ it is a matter of making the message comprehensible. Without a shared context,
 you will inspire very few &mdash; and even fewer will create a
 [shared success][shared-success] with you.
 
-[shared-success]: /create-shared-success
+[shared-success]: /thought/create-shared-success
 
