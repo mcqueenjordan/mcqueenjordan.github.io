@@ -7,11 +7,11 @@ layout: default
 - bringing others up
 - [systems thinking][symsys-stanford]
 - [ataraxia][ataraxia-wiki]
-- hiking
-- guitar [(this is my guitar)][my-guitar]
-- piano
-- house hunting
-- reading textbooks / auditing courses
+- hiking, bouldering, karate
+- guitar ([check out my guitar][my-guitar])
+- house-hunting
+- working on side projects
+- reading textbooks, auditing courses
 - dancing (fusion, pas de deux, blues, swing, waltz, lindy, bachata, kizomba)
 
 

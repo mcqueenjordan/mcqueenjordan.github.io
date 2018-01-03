@@ -5,7 +5,7 @@ layout: default
 # Now
 
 ## A up-to-date blurb on my current status
-*(Last modified 2017-10-06)*
+*(Last modified 2018-01-02)*
 
 ---
 
@@ -14,11 +14,22 @@ I am currently a Software Development Engineer at [AWS][aws]. I live in
 I'm obsessing over engineering excellence and passionately pursuing
 self-growth.
 
-I'm planning a vacation and the top of my current list of candidate
-locations is [Singapore][singapore]. If you're interested, let me know!
+I'm planning several vacations. Here's where I'm planning to go soon:
+
+- [Istanbul][istanbul]
+- [Japan][japan] &mdash; [Kyoto][kyoto], [Hokkaido][hokkaido], [Kyushu][kyushu]
+- [Singapore][singapore]
+
+Istanbul and Japan are likely going to be group vacations with friends. Group
+travel is great. Give it a shot.
 
 [aws]: https://aws.amazon.com
 [seattle]: https://en.wikipedia.org/wiki/Seattle
 [capitol-hill]: https://en.wikipedia.org/wiki/Capitol_Hill_(Seattle)
 [singapore]: https://en.wikipedia.org/wiki/Singapore
+[japan]: https://en.wikipedia.org/wiki/Japan
+[istanbul]: https://en.wikipedia.org/wiki/Istanbul
+[kyoto]: https://en.wikipedia.org/wiki/Kyoto
+[kyushu]: https://en.wikipedia.org/wiki/Kyushu
+[hokkaido]: https://en.wikipedia.org/wiki/Hokkaido
 
