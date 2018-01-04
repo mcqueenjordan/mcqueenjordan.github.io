@@ -6,7 +6,7 @@ body {
   background: #151515 url("../images/bkg.png") 0 0;
   color: #eaeaea;
   font-size: 22px;
-  line-height: 1.5;
+  line-height: 1;
   font-family: 'Inconsolata', monospace;
 }
 
@@ -24,7 +24,7 @@ section {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 20px;
+  margin: 0 0 0px;
 }
 
 li {
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: 'Inconsolata', monospace;
   color: #b5e853;
-  letter-spacing: -0.03em;
+  letter-spacing: 0em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
@@ -140,7 +140,7 @@ ul li:before {
   font-family: 'Inconsolata', monospace;
   font-size: 13px;
   color: #b5e853;
-  margin-left: -37px;
+  margin-left: -27px;
   margin-right: 21px;
   line-height: 16px;
 }
