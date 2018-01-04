@@ -41,13 +41,13 @@ header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
   border-bottom: 1px dashed #b5e853;
-  padding: 20px 0;
-  margin: 0 0 40px 0;
+  padding: 10px 0;
+  margin: 0 0 20px 0;
 }
 
 header h1 {
   font-size: 30px;
-  line-height: 1.5;
+  line-height: 1;
   margin: 0 0 0 0px;
   font-weight: bold;
   font-family: 'Inconsolata', monospace;
@@ -60,8 +60,9 @@ header h1 {
 }
 
 header h1:before {
-  content: "./ ";
-  font-size: 24px;
+    display: block;
+    content: "./whoami.sh";
+    font-size: 30px;
 }
 
 header h2 {
