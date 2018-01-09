@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# my public key ([txt](/public-key.txt))
+
 {% highlight plaintext %}
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1

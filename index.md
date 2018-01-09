@@ -4,6 +4,7 @@ layout: default
 
 # [](#header-1)About me
 
+- [my gpg public key][gpg-public-key]
 - bringing others up
 - [systems thinking][symsys-stanford]
 - [ataraxia][ataraxia-wiki]
@@ -23,4 +24,5 @@ their spirits, and their resolve.
 [ataraxia-wiki]: https://en.wikipedia.org/wiki/Ataraxia
 [symsys-stanford]: https://symsys.stanford.edu
 [my-guitar]: http://www.portlandguitar.com/OM%202.13.60.Gallery.html
+[gpg-public-key]: /public-key
 
