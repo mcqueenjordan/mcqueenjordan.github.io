@@ -7,7 +7,7 @@ layout: default
 | key           | value                      |
 | ------------- |:--------------------------:|
 | cell          | [1-206-714-5314][phone]    |
-| email         | [dojo3@uw.edu][email]      |
+| email         | [jordan@whoami.sh][email]      |
 | linkedin      | [mcqueenjordan][linkedin]  |
 | facebook      | [JordanLoganMcQueen][fb]   |
 | twitter       | [__mcqueen][twitter]       |
