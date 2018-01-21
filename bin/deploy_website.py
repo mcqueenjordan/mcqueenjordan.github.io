@@ -19,7 +19,9 @@ FILES_TO_KEEP_HTML_EXTENSIONS = {
         }
 CONTENT_TYPE_MAPPING = {
         'css': 'text/css',
-        'txt': 'text/plain'
+        'txt': 'text/plain',
+        'JPG': 'image/jpeg',
+        'jpg': 'image/jpeg'
         }
 
 
@@ -27,8 +29,8 @@ def main() -> None:
     print("Re-organizing /thought/ structure...")
     reorganize_thought_file_structure()
 
-    print("Stipping all .html extensions (except blacklisted files).")
-    strip_extensions_recursively(GENERATED_SITE_DIR, '.html')
+    print("Cleaning all file extensions (except blacklisted files) to look pretty in URIs.")
+    prettify_filenames_recursively(GENERATED_SITE_DIR, '.html')
 
     print("Uploading all files to S3...")
     upload_website_to_s3(GENERATED_SITE_DIR, WEBSITE_BUCKET_NAME)
@@ -46,11 +48,21 @@ def reorganize_thought_file_structure() -> None:
         os.rmdir(new_name[:-5])
 
 
+def prettify_filenames_recursively(root: str, extension: str) -> None:
+    strip_extensions_recursively(root, '.html')
+    lower_case_of_extensions('{}/photos/'.format(root), '.JPG')
+
+
 def strip_extensions_recursively(root: str, extension: str) -> None:
     pattern = '{}/**/*{}'.format(root, extension)
     for f in glob(pattern, recursive = True):
         if f not in FILES_TO_KEEP_HTML_EXTENSIONS:
             os.rename(f, f.replace(extension, ''))
+
+def lower_case_of_extensions(root: str, extension: str) -> None:
+    pattern = '{}/**/*{}'.format(root, extension)
+    for f in glob(pattern, recursive = True):
+        os.rename(f, f.replace(extension, extension.lower()))
 
 
 def upload_website_to_s3(directory: str, s3_bucket_name: str) -> None:
