@@ -8,15 +8,15 @@ category: post
 ---
 
 [Keep Your Identity Small (2009)][essay] is an essay by Paul Graham which
-describes a practice that I've intuitively practiced since my early twenties.
+describes something I've intuitively practiced since my early twenties.
 
 My set of [justified true beliefs][jtb] come not as an expression or extension
 of my identity, but from reasoned logic combined with a set of morals, ideal
-outcomes, and others justified true beliefs.
+outcomes, and other justified true beliefs.
 
-A related idea is that of [“Strong Opinons, Weakly Held,"][sowh], a framework
+A related idea is that of [“Strong Opinons, Weakly Held"][sowh], a framework
 for thinking espoused by Palo Alto's Institute for the Future. The idea is that
-opinions should be "weakly held" &mdash; to be unattached to the idea, so that
+opinions should be "weakly held" &mdash; be unattached to the idea, so that
 you do not irrationaly reject its refutation. The other side of this coin is
 that you must not let this lack of attachment dampen your rigor, passion, or
 strength in forming, understanding, and justifying your beliefs.
