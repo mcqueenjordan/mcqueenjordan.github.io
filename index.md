@@ -5,10 +5,12 @@ layout: default
 # [](#header-1)About me
 
 - [my gpg public key][gpg-public-key]
-- bringing others up
+- always aspiring to bring others up
 - [systems thinking][symsys-stanford]
 - [ataraxia][ataraxia-wiki]
-- hiking, bouldering, karate
+- hiking
+- ~~bouldering~~
+- karate
 - guitar ([check out my guitar][my-guitar])
 - [house-hunting](/thought/my-dream-house)
 - working on side projects
