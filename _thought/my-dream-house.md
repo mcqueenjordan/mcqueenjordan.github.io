@@ -9,7 +9,8 @@ category: post
 ---
 
 A home is something personal, a space that can shape your habits, emotions, and
-thoughts. I do not see it as overly materialistic to dream of a 
+thoughts. I do not see it as overly materialistic to dream of am ideal place to
+call home.
 
 ## My wishlist
 
