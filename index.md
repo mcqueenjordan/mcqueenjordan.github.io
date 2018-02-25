@@ -14,6 +14,7 @@ layout: default
 - working on side projects
 - reading textbooks, auditing courses
 - dancing (fusion, pas de deux, blues, swing, waltz, lindy, bachata, kizomba)
+- photography, as part of an incentivization framework to do more exploring
 
 
 As far as I can tell, every observable event is worth some amount of
