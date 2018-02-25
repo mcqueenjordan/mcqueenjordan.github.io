@@ -10,7 +10,7 @@ layout: default
 - [ataraxia][ataraxia-wiki]
 - hiking, bouldering, karate
 - guitar ([check out my guitar][my-guitar])
-- house-hunting
+- [house-hunting](/thought/my-dream-house)
 - working on side projects
 - reading textbooks, auditing courses
 - dancing (fusion, pas de deux, blues, swing, waltz, lindy, bachata, kizomba)
