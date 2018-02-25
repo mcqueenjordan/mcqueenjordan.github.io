@@ -21,7 +21,8 @@ CONTENT_TYPE_MAPPING = {
         'css': 'text/css',
         'txt': 'text/plain',
         'JPG': 'image/jpeg',
-        'jpg': 'image/jpeg'
+        'jpg': 'image/jpeg',
+        'ico': 'image/x-icon'
         }
 
 
