@@ -16,12 +16,11 @@ self-growth.
 
 I'm planning several vacations. Here's where I'm planning to go soon:
 
-- [Istanbul][istanbul]
 - [Japan][japan] &mdash; [Kyoto][kyoto], [Hokkaido][hokkaido], [Kyushu][kyushu]
-- [Singapore][singapore]
+- The Swiss, French, and Italian Alps
 
-Istanbul and Japan are likely going to be group vacations with friends. Group
-travel is great. Give it a shot.
+Right now I'm excited about the idea of group travel. I'm hoping to put some
+"friend vacations" together. Let me know  if you're interested.
 
 [aws]: https://aws.amazon.com
 [seattle]: https://en.wikipedia.org/wiki/Seattle
