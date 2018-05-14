@@ -10,6 +10,6 @@ category: post
 > Everything has been said before, but since nobody listens we have to keep
 > going back and beginning all over again.
 > 
-> <cite>André Gide</cide>
+> <cite>André Gide</cite>
 
 
