@@ -22,7 +22,8 @@ CONTENT_TYPE_MAPPING = {
         'txt': 'text/plain',
         'JPG': 'image/jpeg',
         'jpg': 'image/jpeg',
-        'ico': 'image/x-icon'
+        'ico': 'image/x-icon',
+        'pdf': 'application/pdf'
         }
 
 
@@ -80,6 +81,7 @@ def upload_website_to_s3(directory: str, s3_bucket_name: str) -> None:
                         Body = f,
                         Bucket = s3_bucket_name,
                         ContentType = content_type,
+                        ContentDisposition = 'inline',
                         Key = s3_object_key
                         )
 
