@@ -7,7 +7,7 @@ body {
   color: #eaeaea;
   font-size: 18px;
   line-height: normal;
-  font-family: 'Verdana';
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* General & 'Reset' Stuff */
@@ -50,7 +50,7 @@ header h1 {
   line-height: 1;
   margin: 0 0 0 0px;
   font-weight: bold;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Source Sans Pro", sans-serif;
   color: #b5e853;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -90,7 +90,7 @@ section img {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Source Sans Pro", sans-serif;
   color: #b5e853;
   letter-spacing: 0em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
@@ -138,7 +138,7 @@ ul li {
 
 ul li:before {
   content: ">>";
-  font-family: 'Inconsolata', monospace;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 13px;
   color: #b5e853;
   margin-left: -27px;
@@ -198,7 +198,7 @@ hr {
   border-bottom: 2px solid rgba(0, 0, 0, 0.7);
   border-top: 2px solid rgba(0, 0, 0, 1);
   color: rgba(255, 255, 255, 0.8);
-  font-family: 'Inconsolata', monospace;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   font-size: 13px;
   text-decoration: none;
