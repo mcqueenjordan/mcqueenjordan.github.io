@@ -7,8 +7,8 @@ published_date: "2019-02-21"
 category: post
 ---
 
-When you become stuck on a problem, you **must** *try* for another ~15 minutes,
-and then you **must** **ask**. Document what you try. It becomes a guide that
+When you become stuck on a problem, you **must try** for another ~15 minutes,
+and then you **must ask**. Document what you try. It becomes a guide that
 may lead you to the answer, and if not, it will certainly lead to a better
 question.
 
@@ -34,6 +34,6 @@ advanced form of expertise should look similar to trying a lot &mdash; and
 failing a lot. The best experts become intimate with this feeling. They may even
 revel in it. Accept the discomfort, learn to embrace it, and good things follow.
 
-[You Must Try, and Then You Must Ask (source)][source]
+**You must try, and then you must ask.** ([inspiration][source])]
 
 [source]: https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html
