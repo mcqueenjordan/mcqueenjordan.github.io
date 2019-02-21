@@ -10,7 +10,7 @@ category: post
 Sometimes it can feel like reading the code should be the last resort. That
 feeling is wrong. It is a dangerous feeling, bred from discomfort.
 
-Reading the code isn't always comfortable. It can feel like a arduous chore,
+Reading the code isn't always comfortable. It can feel like an arduous chore,
 especially if it isn't a core habit of yours.
 
 The code is truth. The only complete truth. If physicists had all the source
