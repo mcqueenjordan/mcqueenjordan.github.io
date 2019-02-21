@@ -8,7 +8,7 @@ category: post
 ---
 
 When you become stuck on a problem, you **must** *try* for another ~15 minutes,
-and then you **must** *ask**. Document what you try. It becomes a guide that
+and then you **must** **ask**. Document what you try. It becomes a guide that
 may lead you to the answer, and if not, it will certainly lead to a better
 question.
 
