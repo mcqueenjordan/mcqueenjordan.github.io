@@ -1,4 +1,3 @@
-* https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html
 * https://www.jpr.org.uk/documents/14-06-19.Barry_Johnson.Polarity_Management.pdf
 * Don't let the perfect be the enemy of the good.
 * Not launches, but landings. Apollo 11. Eagle.
