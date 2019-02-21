@@ -34,6 +34,6 @@ advanced form of expertise should look similar to trying a lot &mdash; and
 failing a lot. The best experts become intimate with this feeling. They may even
 revel in it. Accept the discomfort, learn to embrace it, and good things follow.
 
-**You must try, and then you must ask.** ([inspiration][source])]
+**You must try, and then you must ask.** ([inspiration][source])
 
 [source]: https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html
