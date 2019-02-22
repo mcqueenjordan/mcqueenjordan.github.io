@@ -21,6 +21,8 @@ html {
 
 a {
   color: var(--c-link);
+  text-decoration: none;
+  border-bottom: 1px solid var(--black-20);
 }
 
 /* Like underline, but done with borders. */
@@ -128,7 +130,6 @@ pre code {
   content: '';
 }
 
-.content a {
   text-decoration: none;
   border-bottom: 1px solid var(--black-20);
 }
