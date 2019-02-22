@@ -8,13 +8,13 @@ fascination. Our world is way too interesting to ever be bored by it. Take an
 effort to bring those around you up: elevate their understanding, their spirits,
 and their resolve.
 
-#### Work
+### Work
 
 I work as a Software Engineer at [Google X][googlex] [Project Wing][wing], an
 autonomous drone delivery service. Before that, I worked at [Amazon Web
 Services][aws] on the [CloudTrail team][cloudtrail].
 
-#### Play
+### Play
 
 - **Photography**: street, landscape, astro, nature, travel
 - **Travel**: challenging, adventurous, enlightening
@@ -25,7 +25,7 @@ Services][aws] on the [CloudTrail team][cloudtrail].
 - **Gear aficionado**: I care deeply about owning quality things
 - **Hiking, backpacking**: When I get the chance
 
-> ## What's next for me?
+> ### What's next for me?
 
 - I'll be in Mountain View, CA for the foreseeable future
 - I'm looking for my dream home
