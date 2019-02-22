@@ -24,7 +24,8 @@ CONTENT_TYPE_MAPPING = {
         'JPG': 'image/jpeg',
         'jpg': 'image/jpeg',
         'ico': 'image/x-icon',
-        'pdf': 'application/pdf'
+        'pdf': 'application/pdf',
+        'svg': 'image/svg+xml'
         }
 
 
