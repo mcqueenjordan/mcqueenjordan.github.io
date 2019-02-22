@@ -3,6 +3,7 @@ import boto3
 import datetime
 from typing import List
 from glob import glob
+import concurrent.futures
 
 PDX = 'us-west-2'
 s3 = boto3.client('s3', region_name = PDX)
@@ -66,26 +67,32 @@ def lower_case_of_extensions(root: str, extension: str) -> None:
     for f in glob(pattern, recursive = True):
         os.rename(f, f.replace(extension, extension.lower()))
 
+def upload_file(filename: str, s3_bucket_name: str) -> None:
+    s3_object_key = '/'.join(filename.split('/')[1:])
+    content_type = decide_content_type(filename)
+
+    with open(filename, 'rb') as f:
+            s3.put_object(
+                    Body = f,
+                    Bucket = s3_bucket_name,
+                    ContentType = content_type,
+                    ContentDisposition = 'inline',
+                    Key = s3_object_key
+                    )
+    print('Uploaded: {} to {}/{}'.format(filename, s3_bucket_name, s3_object_key))
 
 def upload_website_to_s3(directory: str, s3_bucket_name: str) -> None:
     pattern = '{}/**/*'.format(directory)
     filenames = get_uploadable_files(glob(pattern, recursive = True))
-    for filename in filenames:
-        if os.path.isdir(filename): continue
 
-        s3_object_key = '/'.join(filename.split('/')[1:])
-        content_type = decide_content_type(filename)
+    with concurrent.futures.ThreadPoolExecutor(max_workers = 32) as executor:
+        futures = [
+            executor.submit(upload_file, f, s3_bucket_name) for f in filenames]
 
-        with open(filename, 'rb') as f:
-                s3.put_object(
-                        Body = f,
-                        Bucket = s3_bucket_name,
-                        ContentType = content_type,
-                        ContentDisposition = 'inline',
-                        Key = s3_object_key
-                        )
-
-        print('Uploaded: {} to {}/{}'.format(filename, s3_bucket_name, s3_object_key))
+        for future in concurrent.futures.as_completed(futures, timeout = 512):
+            # We could print more here, but no need. Just a simple way to
+            # BLOCK until all future tasks complete.
+            pass
 
 
 def decide_content_type(filename: str) -> str:
@@ -112,7 +119,7 @@ def get_uploadable_files(filenames: List[str]) -> List[str]:
             dirname = filename.split('/')[1]
         except:
             pass
-        if dirname not in IGNORED_DIRS:
+        if dirname not in IGNORED_DIRS and not os.path.isdir(filename):
             allowed_files.append(filename)
     return allowed_files
 
