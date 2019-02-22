@@ -4,30 +4,35 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link href="/favicon.ico" type="image/x-icon" rel="icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.css_version | relative_url }}">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/tachyons.css?v=' | append: site.css_version | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.css_version | relative_url }}">
     <title>{{ site.title }}</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h1>{{ site.heading }}</h1>
-        <h2>{{ site.description }}</h2>
-        <h2>
-            <a href="/">Home</a> |
-            <a href="/contact">Contact</a> |
-            <a href="/thoughts">Thoughts</a> |
-            <a href="/now">Now</a>
-        </h2>
-      </div>
+  <div class="bg-white source-sans-pro black-70">
+    <header class="page-header">
+
+        <nav class="sitenav ph3 center mw-container">
+            <ul class="sitenav-links flex list ma0 pa0 mt3">
+                <li class="sitenav-title mr4">
+                    <a class="b no-underline" href="/">./whoami.sh</a>
+                </li>
+                <li class="mr4">
+                    <a class="black-50 no-underline" href="/thoughts">Thoughts</a>
+                </li>
+                <li class="mr4">
+                    <a class="black-50 no-underline" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
-      </section>
+    <div class="mv4 ph3 center mw-container">
+        <div class="measure f1-l f3-m f4-s lh-title">
+            {{ content }}
+        </div>
     </div>
-
     {% if site.google_analytics %}
       <script type="text/javascript">
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -38,5 +43,6 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+  </div>
   </body>
 </html>

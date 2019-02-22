@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: thought
+title: Contact
 ---
-
-# [](#header-1)Contact
 
 | key           | value                      |
 | ------------- |:--------------------------:|

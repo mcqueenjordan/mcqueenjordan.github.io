@@ -2,20 +2,22 @@
 layout: default
 ---
 
-# Thoughts
-
+<h1 class="f0 normal mt0 mb4">Thoughts</h1>
 
 {% assign thoughts = site.thought | sort: 'published_date' | reverse %}
 {% for thought in thoughts %}
 
-<h2><a href="/thought/{{ thought.name }}">{{ thought.title }}</a><br>
+
+<h1 class="f1 normal mt0 mb4"><a href="/thought/{{ thought.name }}">{{ thought.title }}</a><br>
 {% if thought.category != "quote" %}
 {{ thought.subtitle }}
 {% endif %}
 <em>{{ thought.published_date }}</em>
-</h2>
+</h1>
 
-{{ thought.content }}
+<div class="content measure-wide lh-copy f2-ns">
+        {{ thought.content }}
+</div>
 
 ---
 
