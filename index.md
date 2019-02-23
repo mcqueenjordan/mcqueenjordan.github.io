@@ -10,9 +10,14 @@ and their resolve.
 
 ### Work
 
-I work as a Software Engineer at [Google X][googlex] [Project Wing][wing], an
+I work as a Software Engineer at [Google X][googlex] on [Project Wing][wing], an
 autonomous drone delivery service. Before that, I worked at [Amazon Web
-Services][aws] on the [CloudTrail team][cloudtrail].
+Services][aws] on [CloudTrail].
+
+I care deeply about getting things right at scale. My passions are performance
+and efficiency, from distributed system design to concurrent design to measuring
+and minimizing stalled cycles at the microcode level. I put a lot of emphasis on
+building the right thing, future-proofing, scaling, and automation.
 
 ### Play
 
@@ -29,7 +34,7 @@ Services][aws] on the [CloudTrail team][cloudtrail].
 
 - I'll be in Mountain View, CA for the foreseeable future
 - I'm looking for my dream home
-- I plan to return to Japan soon
+- I plan to travel to Japan again soon
 - I want to take [some symbolic systems classes][symsys-stanford]
 
 [symsys-stanford]: https://symsys.stanford.edu
