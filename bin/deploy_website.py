@@ -1,6 +1,9 @@
 import os
 import boto3
 import datetime
+import sys
+import hashlib
+from collections import Counter
 from typing import List
 from glob import glob
 import concurrent.futures
@@ -12,11 +15,13 @@ cloudfront = boto3.client('cloudfront')
 WEBSITE_BUCKET_NAME = os.environ['WEBSITE_BUCKET_NAME']
 CLOUDFRONT_DISTRIBUTION_ID = os.environ['CLOUDFRONT_DISTRIBUTION_ID']
 
+S3_ETAG_HASHING_BLOCK_SIZE = 10240
+MAX_UPLOAD_THREADS = 32
 GENERATED_SITE_DIR = '_site'
 THOUGHT_DIR = '{}/thought'.format(GENERATED_SITE_DIR)
 IGNORED_DIRS = {'bin'}
 FILES_TO_KEEP_HTML_EXTENSIONS = {
-        '_site/googleadb73ac2a3c3efa7.html'
+        '_site/googlec2238860c55ca6af.html'
         }
 CONTENT_TYPE_MAPPING = {
         'css': 'text/css',
@@ -28,7 +33,6 @@ CONTENT_TYPE_MAPPING = {
         'svg': 'image/svg+xml'
         }
 
-
 def main() -> None:
     print("Re-organizing /thought/ structure...")
     reorganize_thought_file_structure()
@@ -37,11 +41,10 @@ def main() -> None:
     prettify_filenames_recursively(GENERATED_SITE_DIR, '.html')
 
     print("Uploading all files to S3...")
-    upload_website_to_s3(GENERATED_SITE_DIR, WEBSITE_BUCKET_NAME)
+    new_s3_keys = upload_website_to_s3(GENERATED_SITE_DIR, WEBSITE_BUCKET_NAME)
 
-    print("Invalidating all CloudFront caches. (TODO: only invalidate changes.)")
+    print("Invalidating all CloudFront caches. (TODO: only invalidate {}.)".format(new_s3_keys))
     invalidate_caches()
-
 
 def reorganize_thought_file_structure() -> None:
     pattern = '{}/**/*.html'.format(THOUGHT_DIR)
@@ -51,11 +54,9 @@ def reorganize_thought_file_structure() -> None:
         os.rename(f, new_name)
         os.rmdir(new_name[:-5])
 
-
 def prettify_filenames_recursively(root: str, extension: str) -> None:
     strip_extensions_recursively(root, '.html')
     lower_case_of_extensions('{}/photos/'.format(root), '.JPG')
-
 
 def strip_extensions_recursively(root: str, extension: str) -> None:
     pattern = '{}/**/*{}'.format(root, extension)
@@ -69,7 +70,9 @@ def lower_case_of_extensions(root: str, extension: str) -> None:
         os.rename(f, f.replace(extension, extension.lower()))
 
 def upload_file(filename: str, s3_bucket_name: str) -> None:
-    s3_object_key = '/'.join(filename.split('/')[1:])
+    if not is_file_changed(filename, s3_bucket_name):
+        return None
+
     content_type = decide_content_type(filename)
 
     with open(filename, 'rb') as f:
@@ -78,28 +81,48 @@ def upload_file(filename: str, s3_bucket_name: str) -> None:
                     Bucket = s3_bucket_name,
                     ContentType = content_type,
                     ContentDisposition = 'inline',
-                    Key = s3_object_key
+                    Key = get_s3_key_from_filename(filename)
                     )
-    print('Uploaded: {} to {}/{}'.format(filename, s3_bucket_name, s3_object_key))
+    return get_s3_key_from_filename(filename)
+
+def get_s3_key_from_filename(filename: str) -> str:
+    return '/'.join(filename.split('/')[1:])
+
+def is_file_changed(filename: str, s3_bucket_name: str) -> bool:
+    '''
+    Compares local and remote hashes, returning True if equal, False otherwise.
+    '''
+    local_hash = calculate_local_etag(filename)
+    try:
+        metadata = s3.head_object(Bucket = s3_bucket_name, Key = get_s3_key_from_filename(filename))
+        remote_hash = metadata['ResponseMetadata']['HTTPHeaders']['etag'].strip("'\"")
+    except Exception as e:
+        # There are lots of potential failure modes here, but we'll just assume
+        # return True is an OK implementation for now. Can tune if necessary.
+        print(e)
+        return True
+
+    return remote_hash != local_hash
 
 def upload_website_to_s3(directory: str, s3_bucket_name: str) -> None:
     pattern = '{}/**/*'.format(directory)
     filenames = get_uploadable_files(glob(pattern, recursive = True))
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers = 32) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers = MAX_UPLOAD_THREADS) as executor:
+        results = []
         futures = [
             executor.submit(upload_file, f, s3_bucket_name) for f in filenames]
 
         for future in concurrent.futures.as_completed(futures, timeout = 512):
-            # We could print more here, but no need. Just a simple way to
-            # BLOCK until all future tasks complete.
-            pass
+            if future.result() is not None:
+                results.append(future.result())
 
+        print("Uploaded {} files: {}".format(len(results), results))
+        return results
 
 def decide_content_type(filename: str) -> str:
     extension = filename.split('.')[-1]
     return CONTENT_TYPE_MAPPING.get(extension, 'text/html')
-
 
 def invalidate_caches() -> None:
     cloudfront.create_invalidation(
@@ -123,6 +146,24 @@ def get_uploadable_files(filenames: List[str]) -> List[str]:
         if dirname not in IGNORED_DIRS and not os.path.isdir(filename):
             allowed_files.append(filename)
     return allowed_files
+
+def calculate_local_etag(path):
+    '''
+    This is a proxy of S3s implementation to calculate the etag for
+    single-part objects.
+
+    Note that multi-part uploaded objects will hash differently than this
+    function on S3s service, so we cannot rely on hash comparisons if the
+    S3 object was multi-part uploaded.
+    '''
+    with open(path, 'rb') as f:
+        m = hashlib.md5()
+        while True:
+            data = f.read(S3_ETAG_HASHING_BLOCK_SIZE)
+            if len(data) == 0:
+                break
+            m.update(data)
+        return m.hexdigest()
 
 if __name__ == '__main__':
     main()
