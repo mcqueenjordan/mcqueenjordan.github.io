@@ -19,6 +19,7 @@ S3_ETAG_HASHING_BLOCK_SIZE = 10240
 MAX_UPLOAD_THREADS = 32
 GENERATED_SITE_DIR = '_site'
 THOUGHT_DIR = '{}/thought'.format(GENERATED_SITE_DIR)
+THING_DIR = '{}/thing'.format(GENERATED_SITE_DIR)
 IGNORED_DIRS = {'bin'}
 FILES_TO_KEEP_HTML_EXTENSIONS = {
         '_site/googlec2238860c55ca6af.html'
@@ -34,8 +35,8 @@ CONTENT_TYPE_MAPPING = {
         }
 
 def main() -> None:
-    print("Re-organizing /thought/ structure...")
-    reorganize_thought_file_structure()
+    print("Re-organizing file structures...")
+    reorganize_file_structures([THOUGHT_DIR, THING_DIR])
 
     print("Cleaning all file extensions (except blacklisted files) to look pretty in URIs.")
     prettify_filenames_recursively(GENERATED_SITE_DIR, '.html')
@@ -46,13 +47,14 @@ def main() -> None:
     print("Invalidating all CloudFront caches. (TODO: only invalidate {}.)".format(new_s3_keys))
     invalidate_caches()
 
-def reorganize_thought_file_structure() -> None:
-    pattern = '{}/**/*.html'.format(THOUGHT_DIR)
-    for f in glob(pattern, recursive = True):
-        thought_name = f.split('/')[-2]
-        new_name = '{}/{}.html'.format(THOUGHT_DIR, thought_name)
-        os.rename(f, new_name)
-        os.rmdir(new_name[:-5])
+def reorganize_file_structures(dir_roots) -> None:
+    for dir_root in dir_roots:
+        pattern = '{}/**/*.html'.format(dir_root)
+        for f in glob(pattern, recursive = True):
+            name = f.split('/')[-2]
+            new_name = '{}/{}.html'.format(dir_root, name)
+            os.rename(f, new_name)
+            os.rmdir(new_name[:-5])
 
 def prettify_filenames_recursively(root: str, extension: str) -> None:
     strip_extensions_recursively(root, '.html')
