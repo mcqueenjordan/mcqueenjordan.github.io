@@ -1,11 +1,13 @@
 ---
 layout: thought
-title: "Audeze LCD-XC Closed-Back Headphones"
+title: "Audeze LCD-XC Headphones"
 subtitle: ""
-name: "audeze-lcd-xc-closed-back-headphones"
+name: "audeze-lcd-xc-headphones"
 published_date: "2019-02-25"
 category: post
 ---
+
+![Audeze LCD-XC Headphones](/assets/images/audeze-lcd-xc.jpg)
 
 I care a lot about high-quality audio. I spend most of my workday with
 headphones on, and [music is an important tool to help keep me

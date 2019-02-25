@@ -7,11 +7,13 @@ published_date: "2019-02-25"
 category: post
 ---
 
+![Titanium Key Chain](/assets/images/titanium-key-chain.jpg)
+
 I love to hack the everyday. I don't like the status-quo of accepting inadequate
-tools. A key ring is something you use everyday, but their usability sorely
-lacks. Why settle for a bad design and annoying usability when you can buy a key
-ring that's incredibly well-engineered, with ease of use, made out of
-bulletproof buy-it-for-life materials?
+tools. A key ring is something you use everyday, but its usability sorely lacks.
+Why settle for a bad design and annoying usability when you can buy a key ring
+that's incredibly well-engineered, with ease of use, made out of bulletproof
+buy-it-for-life materials?
 
 This has been my key chain for years: [KNOX Titanium Custom Split Key
 Chain][amzn]. When I can replace something that I use everyday with something
