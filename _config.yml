@@ -4,10 +4,14 @@ description: Thoughts, learnings, a place to share stuff
 exclude: [deploy.sh, deploy_website.py]
 google_analytics:
 theme: 
-include: ['_thought']
+include: ['_thought', '_thing']
 collections:
     thought:
         output: true
         permalink: /:collection/:path/
         title: Thoughts
+    thing:
+      output: true
+      permalink: /:collection/:path/
+      title: Things
 css_version: 1.06
