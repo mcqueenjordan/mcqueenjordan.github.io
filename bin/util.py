@@ -5,6 +5,7 @@ import sys
 import re
 
 URI_REGEX_PATTERN = re.compile('[^0-9a-zA-Z -]+')
+POST_TYPES = ['thought', 'thing']
 POST_TEMPLATE = '''\
 ---
 layout: thought
@@ -28,6 +29,7 @@ def infer_default_name(ctx: object, param: str, value: None) -> str:
     return format_as_uri(ctx.params['title'])
 
 @main.command('create-post')
+@click.option('-k', '--kind', type = click.Choice(POST_TYPES))
 @click.option('-t', '--title', type = str, default = None)
 @click.option('-s', '--subtitle', type = str, default = None)
 @click.option('-d', '--published-date', type = str, default = time.strftime('%Y-%m-%d'))
@@ -40,7 +42,7 @@ def create_post(**create_post_request: dict) -> None:
 def _create_post(create_post_request: dict) -> None:
     '''Logical implementation for creating a post locally.'''
     file_contents = POST_TEMPLATE.format(**create_post_request)
-    file_location = '_thought/{name}.md'.format(**create_post_request)
+    file_location = '_{kind}/{name}.md'.format(**create_post_request)
     chars_written = write_file(file_contents, file_location)
     print("Wrote {} characters to {}.".format(chars_written, file_location))
 
