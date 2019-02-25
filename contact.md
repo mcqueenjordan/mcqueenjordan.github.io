@@ -6,10 +6,6 @@ title: Contact
 [<img style="vertical-align:middle" alt="email" src="/assets/images/email.svg"
 width="64" height="64"/>][email] &mdash; [jordan@whoami.sh][email]
 
-[<img style="vertical-align:middle" alt="Cell Phone"
-src="/assets/images/phone.svg" width="64" height="64"/>][phone] &mdash;
-[+1-206-714-5314][phone]
-
 [<img style="vertical-align:middle" alt="LinkedIn"
 src="/assets/images/Linkedin.svg" width="64" height="64"/>][linkedin] &mdash;
 [LinkedIn][linkedin]
@@ -21,7 +17,6 @@ width="64" height="64"/>][fb] &mdash; [Facebook][fb]
 src="/assets/images/twitter.png" width="64" height="64"/>][twitter] &mdash;
 [Twitter][twitter]
 
-[phone]: tel:12067145314
 [email]: mailto:dojo3@uw.edu
 [linkedin]: https://www.linkedin.com/in/mcqueenjordan/
 [fb]: https://www.facebook.com/JordanLoganMcQueen
