@@ -1,5 +1,5 @@
 ---
-layout: quote
+layout: thought
 title: An Error is not a Mistake
 subtitle: Learning cannot be a mistake
 category: quote

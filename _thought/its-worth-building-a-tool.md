@@ -1,5 +1,5 @@
 ---
-layout: quote
+layout: thought
 title: It's worth building a tool for
 subtitle: Nothing is only done once
 category: quote

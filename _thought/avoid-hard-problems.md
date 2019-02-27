@@ -1,5 +1,5 @@
 ---
-layout: quote
+layout: thought
 title: Avoid Hard Problems
 subtitle: Some things are fundamentally hard
 category: quote
