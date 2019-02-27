@@ -17,7 +17,7 @@ width="64" height="64"/>][fb] &mdash; [Facebook][fb]
 src="/assets/images/twitter.png" width="64" height="64"/>][twitter] &mdash;
 [Twitter][twitter]
 
-[email]: mailto:dojo3@uw.edu
+[email]: mailto:jordan@whoami.sh
 [linkedin]: https://www.linkedin.com/in/mcqueenjordan/
 [fb]: https://www.facebook.com/JordanLoganMcQueen
 [twitter]: https://twitter.com/iamwh0m
