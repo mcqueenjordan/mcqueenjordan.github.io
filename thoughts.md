@@ -9,7 +9,7 @@ layout: default
 
 
 <h1 class="f1 normal mt0 mb4"><a href="/thought/{{ thought.name }}">{{ thought.title }}</a></h1>
-<div class="content measure-wide lh-copy f2-ns">
+<div class="content measure-wide lh-copy f3-ns">
         {{ thought.content }}
 </div>
 
