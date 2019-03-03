@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Cargo Cult Programming"
+title: "Cargo cult programming"
 subtitle: ""
 name: "cargo-cult-programming"
 published_date: "2017-10-04"

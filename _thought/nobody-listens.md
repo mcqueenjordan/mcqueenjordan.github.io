@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Nobody Listens"
+title: "Nobody listens"
 subtitle: ""
 name: "nobody-listens"
 published_date: "2018-05-13"

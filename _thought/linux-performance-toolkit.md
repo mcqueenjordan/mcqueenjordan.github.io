@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Linux Performance Toolkit"
+title: "Linux performance toolkit"
 subtitle: ""
 name: "linux-performance-toolkit"
 published_date: "2018-02-05"

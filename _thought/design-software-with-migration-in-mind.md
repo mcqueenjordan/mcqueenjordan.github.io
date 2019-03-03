@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Design Software with Migration in Mind"
+title: "Design software with migration in mind"
 subtitle: ""
 name: "design-software-with-migration-in-mind"
 published_date: "2017-10-08"

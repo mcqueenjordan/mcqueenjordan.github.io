@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: New Website Design
+title: New website design
 subtitle: Optimizing for Ease of Publishing
 topics: ["website"]
 name: new-website

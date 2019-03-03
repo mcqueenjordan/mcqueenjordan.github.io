@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: Avoid Hard Problems
+title: Avoid hard problems
 subtitle: Some things are fundamentally hard
 category: quote
 topics: ["wisdom"]

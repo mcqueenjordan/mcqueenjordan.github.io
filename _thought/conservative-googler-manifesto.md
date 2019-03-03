@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: Conservative Googler Manifesto
+title: Conservative Googler manifesto
 subtitle: Tolerance is not a Moral Precept
 category: post
 topics: ["soft skills", "politics"]

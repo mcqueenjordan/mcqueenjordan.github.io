@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Everyone Belongs to a Tribe"
+title: "Everyone belongs to a tribe"
 subtitle: ""
 name: "everyone-belongs-to-a-tribe"
 published_date: "2018-03-09"

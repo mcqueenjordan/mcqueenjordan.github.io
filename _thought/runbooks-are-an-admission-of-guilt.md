@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Runbooks are an Admission of Guilt"
+title: "Runbooks are an admission of guilt"
 subtitle: ""
 name: "runbooks-are-an-admission-of-guilt"
 published_date: "2018-08-30"

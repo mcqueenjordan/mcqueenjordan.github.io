@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Documentation Should be High-Level"
+title: "Documentation should be high-level"
 subtitle: "Keep your documentation legible and sustainable"
 category: post
 topics: ["software engineering", "process"]

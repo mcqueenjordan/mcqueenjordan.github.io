@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Think Big Picture and Fine Detail"
+title: "Think big picture and fine detail"
 subtitle: ""
 name: "think-big-picture-and-fine-detail"
 published_date: "2018-03-10"

@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: An Error is not a Mistake
+title: An error is not a mistake
 subtitle: Learning cannot be a mistake
 category: quote
 topics: ["wisdom"]

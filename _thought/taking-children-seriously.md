@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Taking Children Seriously"
+title: "Taking children seriously"
 subtitle: ""
 name: "taking-children-seriously"
 published_date: "2017-12-03"

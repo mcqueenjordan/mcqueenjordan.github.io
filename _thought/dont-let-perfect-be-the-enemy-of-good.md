@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Don't Let Perfect Be the Enemy of Good"
+title: "Don't let perfect be the enemy of good"
 subtitle: ""
 name: "dont-let-perfect-be-the-enemy-of-good"
 published_date: "2019-02-25"

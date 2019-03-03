@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Judgment over Technique"
+title: "Judgment over technique"
 subtitle: ""
 name: "judgment-over-technique"
 published_date: "2018-08-31"

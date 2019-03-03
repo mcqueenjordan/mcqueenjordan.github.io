@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Tiling Window Managers"
+title: "Tiling window managers"
 subtitle: "A better way to interface with your computer"
 topics: ["tools"]
 name: "tiling-window-managers"

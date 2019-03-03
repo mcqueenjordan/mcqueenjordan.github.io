@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Consistency Models"
+title: "Consistency models"
 subtitle: ""
 name: "consistency-models"
 published_date: "2018-07-05"

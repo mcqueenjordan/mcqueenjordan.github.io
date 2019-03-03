@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: Comments are a Code Smell
+title: Comments are a code smell
 subtitle: If it needs a comment, it needs a rewrite
 category: quote
 topics: ["software engineering"]

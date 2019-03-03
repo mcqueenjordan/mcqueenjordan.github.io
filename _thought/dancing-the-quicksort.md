@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: Dancing the Quicksort
+title: Dancing the quicksort
 subtitle: Hungarian folk dancing meets quicksort
 category: post
 topics: ["computer science", "dance", "fun"]

@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Create Shared Success"
+title: "Create shared success"
 subtitle: ""
 name: "create-shared-success"
 published_date: "2017-12-10"

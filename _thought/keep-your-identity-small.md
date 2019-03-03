@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Keep Your Identity Small"
+title: "Keep your identity small"
 subtitle: ""
 name: "keep-your-identity-small"
 published_date: "2018-02-24"

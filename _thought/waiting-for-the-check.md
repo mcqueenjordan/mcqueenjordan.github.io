@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Waiting for the Check"
+title: "Waiting for the check"
 subtitle: ""
 name: "waiting-for-the-check"
 published_date: "2017-11-23"

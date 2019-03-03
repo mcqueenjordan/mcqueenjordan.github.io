@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: Less is More
+title: Less is more
 subtitle: Don't seek to add &mdash; seek to reduce
 category: quote
 topics: ["software engineering", "wisdom"]

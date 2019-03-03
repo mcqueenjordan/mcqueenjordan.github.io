@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Phenomenal Pas de Deux"
+title: "Phenomenal pas de deux"
 subtitle: "Gods and Dogs, Jiří Kylián"
 name: "phenomenal-pas-de-deux-gods-and-dogs"
 published_date: "2017-09-17"

@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Create Shared Context"
+title: "Create shared context"
 subtitle: ""
 name: "create-shared-context"
 published_date: "2017-12-10"

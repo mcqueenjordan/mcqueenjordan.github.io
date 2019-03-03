@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: Context Switching an Engineer
+title: Context switching an engineer
 subtitle: The costs of interrupting a task
 category: post
 topics: ["soft skills", "software engineering", "process"]

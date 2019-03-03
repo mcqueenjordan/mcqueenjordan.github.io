@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Comments: a Delicate Matter"
+title: "Comments: a delicate matter"
 subtitle: ""
 name: "comments-a-delicate-matter"
 published_date: "2017-10-04"

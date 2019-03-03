@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "How to Build a Company"
+title: "How to build a company"
 subtitle: ""
 name: "how-to-build-a-company"
 published_date: "2018-07-03"

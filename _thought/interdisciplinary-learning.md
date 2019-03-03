@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Interdisciplinary Learning"
+title: "Interdisciplinary learning"
 subtitle: ""
 name: "interdisciplinary-learning"
 published_date: "2018-03-09"

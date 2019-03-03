@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Thoughts Should Motivate Action"
+title: "Thoughts should motivate action"
 name: "thoughts-should-motivate-action"
 published_date: "2018-12-20"
 category: post

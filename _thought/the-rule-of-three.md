@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: The Rule of Three
+title: The rule of three
 subtitle: Every set of three is complete
 category: post
 topics: ["soft skills"]

@@ -1,7 +1,6 @@
 ---
 layout: thought
-title: Good Architecture
-subtitle: If you don't invest in your future, don't expect good things
+title: Good architecture
 category: quote
 topics: ["software engineering"]
 attributed-to: Brian Foote & Joseph Yoder

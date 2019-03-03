@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "My Dream House"
+title: "My dream house"
 subtitle: "Houselusions of grandeur"
 topics: ["personal"]
 name: "my-dream-house"

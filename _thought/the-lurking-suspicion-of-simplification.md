@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "The Lurking Suspicion of Simplification"
+title: "The lurking suspicion of simplification"
 subtitle: ""
 name: "the-lurking-suspicion-of-simplification"
 published_date: "2017-10-04"

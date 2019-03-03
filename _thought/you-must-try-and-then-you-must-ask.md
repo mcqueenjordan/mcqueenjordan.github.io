@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "You Must Try, and Then You Must Ask"
+title: "You must try, and then you must ask"
 subtitle: ""
 name: "you-must-try-and-then-you-must-ask"
 published_date: "2019-02-21"

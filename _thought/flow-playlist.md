@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Flow Playlist"
+title: "Flow playlist"
 subtitle: ""
 name: "flow-playlist"
 published_date: "2019-02-11"

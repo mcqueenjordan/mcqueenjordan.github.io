@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: A Computer Scientists View of Life, the Universe, and Everything
+title: A computer scientists view of life, the universe, and everything
 subtitle:  Randomness, life, generalization, and learning in a given universe
 category: post
 topics: ["computer science", "academia"]

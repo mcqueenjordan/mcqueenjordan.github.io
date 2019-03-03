@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "The Power and Cost of Abstraction"
+title: "The power and cost of abstraction"
 subtitle: ""
 name: "the-power-and-cost-of-abstraction"
 published_date: "2017-10-12"

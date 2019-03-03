@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: Worry About Scaling Later
+title: Worry about scaling later
 subtitle: Starting up is antithetical to scaling efforts
 topics: ["business"]
 name: worry-about-scaling-later

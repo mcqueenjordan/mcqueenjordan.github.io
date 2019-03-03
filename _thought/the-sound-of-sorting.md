@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: The Sound of Sorting
+title: The sound of sorting
 subtitle: Seeing and Hearing Sorting Algorithms
 topics: ["computer science", "video"]
 name: the-sound-of-sorting
@@ -15,6 +15,5 @@ understanding of how different methods of sorting work.
 I strongly prefer and seek out deeper, more intuitive understandings as opposed
 to shallow, rote ones. Take a look.
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=sYd_-pAfbBw" frameborder="0" allowfullscreen>
-</iframe>
+<iframe src=""https://www.youtube.com/embed/sYd_-pAfbBw" frameborder="0"
+allowfullscreen> </iframe>

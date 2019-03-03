@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "The True Burden of Masters"
+title: "The true burden of masters"
 subtitle: ""
 name: "the-true-burden-of-masters"
 published_date: "2017-12-29"
