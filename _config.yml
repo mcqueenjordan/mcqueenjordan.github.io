@@ -5,6 +5,13 @@ exclude: [deploy.sh, deploy_website.py]
 google_analytics:
 theme: 
 include: ['_thought', '_thing']
+topics: ["computer science", "metacognition", "leadership",
+         "software engineering", "academia", "wisdom", "quotes",
+         "coding style", "politics", "culture", "distributed systems",
+         "algorithms", "system design", "resources", "music", "business",
+         "learning", "storytelling", "teaching", "personal", "tools",
+         "concurrency", "code", "common misconceptions",
+         "performance engineering", "project management"]
 collections:
     thought:
         output: true
