@@ -3,6 +3,7 @@ import boto3
 import datetime
 import sys
 import hashlib
+import htmlmin
 from collections import Counter
 from typing import List
 from glob import glob
@@ -39,9 +40,12 @@ def main() -> None:
     reorganize_file_structures([THOUGHT_DIR, THING_DIR])
 
     print("Cleaning all file extensions (except blacklisted files) to look pretty in URIs.")
-    prettify_filenames_recursively(GENERATED_SITE_DIR, '.html')
+    html_files = prettify_filenames_recursively(GENERATED_SITE_DIR, '.html')
 
-    print("Uploading all files to S3...")
+    print("Minifying HTML files...")
+    minify_html_files(html_files)
+
+    print("Uploading changed files to S3...")
     new_s3_keys = upload_website_to_s3(GENERATED_SITE_DIR, WEBSITE_BUCKET_NAME)
 
     print("Invalidating all CloudFront caches. (TODO: only invalidate {}.)".format(new_s3_keys))
@@ -57,19 +61,34 @@ def reorganize_file_structures(dir_roots) -> None:
             os.rmdir(new_name[:-5])
 
 def prettify_filenames_recursively(root: str, extension: str) -> None:
-    strip_extensions_recursively(root, '.html')
+    html_files = strip_extensions_recursively(root, '.html')
     lower_case_of_extensions('{}/photos/'.format(root), '.JPG')
+    return html_files
 
 def strip_extensions_recursively(root: str, extension: str) -> None:
+    affected_files = []
     pattern = '{}/**/*{}'.format(root, extension)
     for f in glob(pattern, recursive = True):
+        # TODO(jqq): conceptually, this check belongs outside this function
         if f not in FILES_TO_KEEP_HTML_EXTENSIONS:
-            os.rename(f, f.replace(extension, ''))
+            new_name = f.replace(extension, '')
+            os.rename(f, new_name)
+            affected_files.append(new_name)
+    return affected_files
 
 def lower_case_of_extensions(root: str, extension: str) -> None:
     pattern = '{}/**/*{}'.format(root, extension)
     for f in glob(pattern, recursive = True):
         os.rename(f, f.replace(extension, extension.lower()))
+
+def minify_html_files(html_files):
+    for html_file in html_files:
+        with open(html_file, 'r') as f:
+            minified = htmlmin.minify(f.read(), remove_comments = True,
+                                      reduce_boolean_attributes = True,
+                                      remove_empty_space = True)
+        with open(html_file, 'w') as f:
+            f.write(minified)
 
 def upload_file(filename: str, s3_bucket_name: str) -> None:
     if not is_file_changed(filename, s3_bucket_name):
