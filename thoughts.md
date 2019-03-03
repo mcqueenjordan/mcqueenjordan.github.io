@@ -30,12 +30,10 @@ layout: default_with_index
   </div>
 </div>
 
-{% for thought in thoughts %}
-<h1 class="f1 normal mt0 mb4"><a href="/thought/{{ thought.name }}">{{ thought.title }}</a></h1>
 <div class="content measure-wide lh-copy f3-ns">
-        {{ thought.content }}
-        <hr>
-
-{% endfor %}
-
+  {% for thought in thoughts %}
+    <h1 class="f1 normal mt0 mb4"><a href="/thought/{{ thought.name }}">{{ thought.title }}</a></h1>
+      {{ thought.content }}
+      <hr>
+  {% endfor %}
 </div>
