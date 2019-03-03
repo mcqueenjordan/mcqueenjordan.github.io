@@ -15,5 +15,11 @@ understanding of how different methods of sorting work.
 I strongly prefer and seek out deeper, more intuitive understandings as opposed
 to shallow, rote ones. Take a look.
 
-<iframe src=""https://www.youtube.com/embed/sYd_-pAfbBw" frameborder="0"
-allowfullscreen> </iframe>
+<div class="responsive-container">
+<iframe
+  class="responsive-iframe"
+  src="https://www.youtube.com/embed/sYd_-pAfbBw"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+</div>
