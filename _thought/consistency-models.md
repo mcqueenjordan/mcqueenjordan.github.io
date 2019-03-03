@@ -3,7 +3,7 @@ layout: thought
 title: "Consistency models"
 subtitle: ""
 name: "consistency-models"
-topics: ["computer science", "distributed computing"]
+topics: ["computer science", "distributed systems"]
 published_date: "2018-07-05"
 category: post
 ---
