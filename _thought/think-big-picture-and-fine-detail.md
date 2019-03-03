@@ -3,6 +3,7 @@ layout: thought
 title: "Think big picture and fine detail"
 subtitle: ""
 name: "think-big-picture-and-fine-detail"
+topics: ["metacognition"]
 published_date: "2018-03-10"
 category: quote
 ---

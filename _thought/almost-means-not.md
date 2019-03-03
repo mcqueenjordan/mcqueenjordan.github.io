@@ -4,7 +4,7 @@ title: Almost is a word that means not
 subtitle: Listen carefully to what you are told
 name: almost-means-not
 published_date: "2016-05-12"
-topics: ["soft skills"]
+topics: ["communication"]
 category: post
 ---
 

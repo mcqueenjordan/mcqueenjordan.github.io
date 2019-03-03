@@ -3,6 +3,7 @@ layout: thought
 title: "Linux performance toolkit"
 subtitle: ""
 name: "linux-performance-toolkit"
+topics: ["tools", "performance engineering"]
 published_date: "2018-02-05"
 category: post
 ---

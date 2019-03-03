@@ -2,6 +2,7 @@
 layout: thought
 title: "Thoughts should motivate action"
 name: "thoughts-should-motivate-action"
+topics: ["metacognition"]
 published_date: "2018-12-20"
 category: post
 ---

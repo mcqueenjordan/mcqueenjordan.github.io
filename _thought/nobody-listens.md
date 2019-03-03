@@ -3,6 +3,7 @@ layout: thought
 title: "Nobody listens"
 subtitle: ""
 name: "nobody-listens"
+topics: ["wisdom", "teaching"]
 published_date: "2018-05-13"
 category: post
 ---

@@ -3,6 +3,7 @@ layout: thought
 title: "Taking children seriously"
 subtitle: ""
 name: "taking-children-seriously"
+topics: ["teaching", "personal"]
 published_date: "2017-12-03"
 category: post
 ---

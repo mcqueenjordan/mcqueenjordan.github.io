@@ -3,6 +3,7 @@ layout: thought
 title: "The lurking suspicion of simplification"
 subtitle: ""
 name: "the-lurking-suspicion-of-simplification"
+topics: ["quotes", "wisdom", "code"]
 published_date: "2017-10-04"
 category: quote
 ---

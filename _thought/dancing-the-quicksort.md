@@ -3,7 +3,7 @@ layout: thought
 title: Dancing the quicksort
 subtitle: Hungarian folk dancing meets quicksort
 category: post
-topics: ["computer science", "dance", "fun"]
+topics: ["computer science", "algorithms"]
 published_date: "2017-07-05"
 name: dancing-the-quicksort
 ---

@@ -3,6 +3,7 @@ layout: thought
 title: "The true burden of masters"
 subtitle: ""
 name: "the-true-burden-of-masters"
+topics: ["teaching", "leadership"]
 published_date: "2017-12-29"
 category: post
 ---

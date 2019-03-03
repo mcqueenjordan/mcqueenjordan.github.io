@@ -2,7 +2,7 @@
 layout: thought
 title: Good architecture
 category: quote
-topics: ["software engineering"]
+topics: ["software engineering", "wisdom"]
 attributed-to: Brian Foote & Joseph Yoder
 published_date: "2017-07-04"
 name: good-architecture-bad-architecture

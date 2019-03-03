@@ -2,7 +2,7 @@
 layout: thought
 title: The sound of sorting
 subtitle: Seeing and Hearing Sorting Algorithms
-topics: ["computer science", "video"]
+topics: ["computer science", "algorithms"]
 name: the-sound-of-sorting
 published_date: "2017-07-03"
 category: post

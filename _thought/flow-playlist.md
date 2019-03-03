@@ -3,6 +3,7 @@ layout: thought
 title: "Flow playlist"
 subtitle: ""
 name: "flow-playlist"
+topics: ["resources", "music"]
 published_date: "2019-02-11"
 category: post
 ---

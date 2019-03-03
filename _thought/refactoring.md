@@ -3,6 +3,7 @@ layout: thought
 title: "Refactoring"
 subtitle: ""
 name: "refactoring"
+topics: ["common misconceptions", "code"]
 published_date: "2017-10-04"
 category: quote
 ---

@@ -3,6 +3,7 @@ layout: thought
 title: "Comments: a delicate matter"
 subtitle: ""
 name: "comments-a-delicate-matter"
+topics: ["coding style"]
 published_date: "2017-10-04"
 category: quote
 ---

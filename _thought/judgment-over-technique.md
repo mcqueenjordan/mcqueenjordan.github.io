@@ -3,6 +3,7 @@ layout: thought
 title: "Judgment over technique"
 subtitle: ""
 name: "judgment-over-technique"
+topics: ["tools"]
 published_date: "2018-08-31"
 category: post
 ---

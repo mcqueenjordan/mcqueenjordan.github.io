@@ -3,6 +3,7 @@ layout: thought
 title: "The fallacies of distributed computing"
 subtitle: ""
 name: "the-fallacies-of-distributed-computing"
+topics: ["distributed computing", "system design"]
 published_date: "2018-07-11"
 category: post
 ---

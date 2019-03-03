@@ -3,6 +3,7 @@ layout: thought
 title: "You must try, and then you must ask"
 subtitle: ""
 name: "you-must-try-and-then-you-must-ask"
+topics: ["learning"]
 published_date: "2019-02-21"
 category: post
 ---

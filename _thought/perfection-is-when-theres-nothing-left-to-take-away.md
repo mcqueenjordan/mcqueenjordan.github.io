@@ -3,7 +3,7 @@ layout: thought
 title: Less is more
 subtitle: Don't seek to add &mdash; seek to reduce
 category: quote
-topics: ["software engineering", "wisdom"]
+topics: ["software engineering", "wisdom", "system design"]
 attributed-to: Antoine de Saint-Exupery
 published_date: "2016-06-23"
 name: perfection-is-when-theres-nothing-left-to-take-away

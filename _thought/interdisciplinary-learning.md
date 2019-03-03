@@ -3,6 +3,7 @@ layout: thought
 title: "Interdisciplinary learning"
 subtitle: ""
 name: "interdisciplinary-learning"
+topics: ["metacognition", "learning"]
 published_date: "2018-03-09"
 category: post
 ---

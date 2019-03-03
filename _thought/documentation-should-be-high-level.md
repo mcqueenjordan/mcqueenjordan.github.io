@@ -3,7 +3,7 @@ layout: thought
 title: "Documentation should be high-level"
 subtitle: "Keep your documentation legible and sustainable"
 category: post
-topics: ["software engineering", "process"]
+topics: ["software engineering"]
 name: "documentation-should-be-high-level"
 published_date: "2017-09-09"
 ---

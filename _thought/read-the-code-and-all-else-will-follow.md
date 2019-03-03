@@ -3,6 +3,7 @@ layout: thought
 title: "Read the code and all else will follow"
 subtitle: ""
 name: "read-the-code-and-all-else-will-follow"
+topics: ["software engineering", "code"]
 published_date: "2019-02-20"
 category: post
 ---

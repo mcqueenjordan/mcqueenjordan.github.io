@@ -3,6 +3,7 @@ layout: thought
 title: "Runbooks are an admission of guilt"
 subtitle: ""
 name: "runbooks-are-an-admission-of-guilt"
+topics: ["software engineering"]
 published_date: "2018-08-30"
 category: post
 ---

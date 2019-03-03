@@ -3,6 +3,7 @@ layout: thought
 title: "The power and cost of abstraction"
 subtitle: ""
 name: "the-power-and-cost-of-abstraction"
+topics: ["software engineering"]
 published_date: "2017-10-12"
 category: quote
 ---

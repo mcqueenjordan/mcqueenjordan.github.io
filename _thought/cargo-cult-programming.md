@@ -3,6 +3,7 @@ layout: thought
 title: "Cargo cult programming"
 subtitle: ""
 name: "cargo-cult-programming"
+topics: ["coding style"]
 published_date: "2017-10-04"
 category: quote
 ---

@@ -3,7 +3,7 @@ layout: thought
 title: Context switching an engineer
 subtitle: The costs of interrupting a task
 category: post
-topics: ["soft skills", "software engineering", "process"]
+topics: ["software management", "process"]
 name: context-switching-an-engineer
 published_date: "2017-08-07"
 ---

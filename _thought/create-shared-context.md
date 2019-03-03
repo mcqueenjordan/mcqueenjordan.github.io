@@ -3,6 +3,7 @@ layout: thought
 title: "Create shared context"
 subtitle: ""
 name: "create-shared-context"
+topics: ["leadership", "politics"]
 published_date: "2017-12-10"
 category: post
 ---

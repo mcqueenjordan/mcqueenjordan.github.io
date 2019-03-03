@@ -3,6 +3,7 @@ layout: thought
 title: "Functionality is an asset; code is a liability"
 subtitle: ""
 name: "functionality-is-an-asset-code-is-a-liability"
+topics: ["wisdom", "software engineering"]
 published_date: "2017-10-07"
 category: quote
 ---

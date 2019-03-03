@@ -3,6 +3,7 @@ layout: thought
 title: "Waiting for the check"
 subtitle: ""
 name: "waiting-for-the-check"
+topics: ["computer science", "concurrency"]
 published_date: "2017-11-23"
 category: post
 ---

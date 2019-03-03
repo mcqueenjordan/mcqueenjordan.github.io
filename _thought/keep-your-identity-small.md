@@ -3,6 +3,7 @@ layout: thought
 title: "Keep your identity small"
 subtitle: ""
 name: "keep-your-identity-small"
+topics: ["culutre", "politics", "metacognition"]
 published_date: "2018-02-24"
 category: post
 ---

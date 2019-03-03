@@ -3,6 +3,7 @@ layout: thought
 title: "How to build a company"
 subtitle: ""
 name: "how-to-build-a-company"
+topics: ["business"]
 published_date: "2018-07-03"
 category: post
 ---

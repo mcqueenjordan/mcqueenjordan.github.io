@@ -3,6 +3,7 @@ layout: thought
 title: "Unlearning"
 subtitle: ""
 name: "unlearning"
+topics: ["metacognition", "learning"]
 published_date: "2017-10-04"
 category: quote
 ---

@@ -3,6 +3,7 @@ layout: thought
 title: "Don't let perfect be the enemy of good"
 subtitle: ""
 name: "dont-let-perfect-be-the-enemy-of-good"
+topics: ["wisdom", "project management"]
 published_date: "2019-02-25"
 category: post
 ---
