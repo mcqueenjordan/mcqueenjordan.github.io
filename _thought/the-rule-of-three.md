@@ -28,9 +28,16 @@ simplifying the conceptual model and providing and elegant framework to teach.
 humans, augmenting credibility and persuasiveness.
 
 
-## See also: `The Rule of Three`, by Kevlin Henney
+See also: `The Rule of Three`, by Kevlin Henney
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/buEB5zLAHl8" frameborder="0" allowfullscreen></iframe>
+<div class="responsive-container">
+<iframe
+  class="responsive-iframe"
+  src="https://www.youtube.com/embed/buEB5zLAHl8"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+</div>
 
 
 [transform-website]: https://www.transform.co/
