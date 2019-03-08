@@ -5,6 +5,7 @@ import sys
 import re
 
 URI_REGEX_PATTERN = re.compile('[^0-9a-zA-Z -]+')
+PROMPT_BLACKLIST = {"subtitle"}
 POST_TYPES = ['thought', 'thing']
 POST_TEMPLATE = '''\
 ---
@@ -14,6 +15,7 @@ subtitle: "{subtitle}"
 name: "{name}"
 published_date: "{published_date}"
 category: post
+topics: {topics}
 ---
 
 '''
@@ -31,6 +33,7 @@ def infer_default_name(ctx: object, param: str, value: None) -> str:
 @main.command('create-post')
 @click.option('-k', '--kind', type = click.Choice(POST_TYPES))
 @click.option('-t', '--title', type = str, default = None)
+@click.option('-o', '--topics', type = list, default = None)
 @click.option('-s', '--subtitle', type = str, default = None)
 @click.option('-d', '--published-date', type = str, default = time.strftime('%Y-%m-%d'))
 @click.option('-n', '--name', type = str, callback = infer_default_name)
@@ -52,8 +55,12 @@ def prompt_for_and_set_missing(cli_request: dict) -> None:
         Side-effects.
     '''
     for arg, val in cli_request.items():
-        if val is None:
+        if val is None and arg not in PROMPT_BLACKLIST:
             cli_request[arg] = input(arg + ': ')
+
+    # small hack for the topics, which is a csv list
+    cli_request["topics"] = cli_request["topics"].split(',')
+
 
 def write_file(file_contents: str, file_location: str) -> None:
     with open(file_location, 'w') as f:
