@@ -8,13 +8,13 @@ category: post
 topics: ["personal"]
 ---
 
-> It was also more than dozens of times I have heard or participated in a
-> conversation where people would ask each other about how many countries they
-> have been to. At some point that would sound like a competition. 20, 30, 40,
-> “and this year I plan to do A and B and C”.
+> It's more than dozens of times I have heard or participated in a conversation
+> where people would ask each other, "How many countries have you been to?" At
+> some point it would sound like a competition. 20, 30, 40, “and this year I
+> plan to do A and B and C”.
 >
 > Yes, you have been to 30 countries in 5 years, but have you really “been”
-> there? How many places do you really know and understand? How much of those
+> there? How many places do you really know and understand? How many of those
 > amazing, life-changing moments do you actually retain, internalize and use to
 > help yourself become a better human, a better citizen of this world?
 
