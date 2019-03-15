@@ -7,14 +7,15 @@ topics: ["resources", "music"]
 published_date: "2019-02-11"
 category: post
 ---
+I long searched for the perfect playlist to listen to as I worked. I never
+found it. So I tried to create it.
 
 [Flow][flow-playlist-link] is my playlist for concentration, coding, problem
-solving, etc. I long searched for the perfect playlist to listen to as I worked,
-but after being unable to find it I created it myself.
+solving, etc. As of Mar 2019, it has over 57 hours of music.
 
 Its aim is to optimize for [the mental state of Flow][flow-wiki]. Using nearly
 exclusively non-vocal tracks, the genres are primarily [spacemusic][space] and
-[ambient][ambient], whose tempo and sound-stage I find optimizes well for flow.
+[ambient][ambient].
 
 <div class="responsive-container">
 <iframe
