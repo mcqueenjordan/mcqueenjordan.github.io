@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-source .env
+source ~/.env
 
 echo "Building jekyll _site/ contents..."
 bundle exec jekyll build &&
